@@ -1,0 +1,373 @@
+.loginname {
+	font-size:9px;
+	color:#a7a9ac;
+	margin-right:7px;
+	margin-bottom:10px;	
+	padding-left:3px;
+	border:solid thin #a7a9ac;
+			} 
+
+#loginalready {
+	font-size:12px;
+	color:#2e56a6;
+		} 
+
+.btsign {
+	background-color:#2e56a6;
+	color:#FFFFFF;
+	padding:1px 10px;
+	width:auto;
+	border:1px solid #069;
+	font-size:9px;
+	cursor:pointer;
+	}
+
+.bt2 {
+	background-color:#2e56a6;
+	margin-left:10px;
+	color:#FFFFFF;
+	border:solid #a7a9ac thin;
+	text-align:center;
+	padding:6 15 6 15px;
+	font-weight:bolder;
+	margin-left:200px;
+	cursor:pointer;
+	}
+	
+.all_buttons{background-color:#2e56a6; margin-left:10px;color:#FFFFFF;border:none;text-align:center; font-weight:bold; padding:2px 15px 3px 15px; cursor:pointer;}
+.left10{margin-left:10px;}
+	
+.bt2_new {
+	background-color:#2e56a6;
+	color:#FFFFFF;
+	border:solid #a7a9ac thin;
+	text-align:center;
+	padding:6 15 6 15px;
+	font-weight:bolder;
+	margin-left: 430px;
+	cursor:pointer;
+	}	
+		
+
+#loginpolicy {
+	font-size:9px;
+	color:#a7a9ac;
+	position:relative;
+	top:-8px;
+		} 	
+
+.searchtext {
+	margin-left:10px;
+	padding:3px;
+	font-size:14px;
+	color:#a7a9ac;
+	margin-bottom:10px;
+	border:solid #a7a9ac thin;
+	} 	
+
+.td {
+  text-align:right;
+  padding-right:10px;
+  padding-bottom:10px;
+  
+  font-size:14px;
+  color:#58585a;
+  }
+  
+ .left {
+  text-align:LEFT;
+  padding-right:10px;
+  padding-bottom:10px;
+  font-size:14px;
+  color:#58585a;
+  } 
+  
+.tableserach {
+	width:400px;
+	height:400px;
+	border:solid;
+	border-color:#CCCCCC;
+	overflow-x:hidden;
+	overflow-y:scroll;
+	display:block;
+	float:left;
+	margin-left:50px;
+		
+	}
+   
+  
+    
+.thdate{
+	background-color:#2e56a6;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	width:100px;
+	height:20px;
+		
+}
+.thproduct{
+	background-color:#2e56a6;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	width:300px;
+	height:20px;
+		
+}
+
+.tddate {
+  	text-align:left;
+	font-size:12px;
+	width:100px;
+	background-color:#f0eff7;
+	color:#333333;
+	height:20px;
+	border-bottom:solid;
+	border-bottom-color:#FFFFFF;
+	border-right:solid;
+	border-right-color:#FFFFFF;
+	padding:5px;
+	}
+.tdproduct {
+  	text-align:left;
+	font-size:12px;
+	width:300px;
+	background-color:#f0eff7;
+	color:#333333;
+	height:20px;
+	border-bottom:solid; 
+	border-bottom-color:#FFFFFF;
+	padding:5px;
+	}
+.searchdes {
+	background-color:#f0eff7;
+}
+
+.searchdestext {
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:15px;
+	padding-left:25px;
+	width:170px;
+	
+	}		
+.serchdechead {
+
+font-size:16px; font-weight:bold; color:#58585a; text-align:center;background-color:#2e56a6;
+	color:#FFFFFF;
+}	
+.align_center{ text-align:center;}
+.centerpar {
+	text-align:center;
+	font-size:14px;
+	color:#58585a;
+	padding:10px 70px;
+	}
+.leftpar {
+	text-align:left;
+	font-size:14px;
+	color:#58585a;
+	padding:70px;
+	line-height:30px;
+	font-weight:bold;
+	margin-left:75px;
+	}	
+	
+.centerpar1 {
+	text-align:center;
+	font-size:14px;
+	color:#58585a;
+	padding:3px;
+	}
+	
+	
+.centerpar2 {
+	text-align:center;
+	font-size:16px;
+	color:#2e56a6;
+	padding:10px;
+	margin-top:25px;
+	font-weight:bold;
+	
+	}	
+	
+.tablespace {
+	padding-bottom:12px;
+	}
+	
+.tablespace1 {
+	padding-bottom:12px;
+	padding-left:50px;
+	
+		}
+/*page10 */			
+.pagecenter{
+	border:solid #999999;
+	vertical-align:middle;
+	margin-top:60px;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom:20px;
+	
+	width:740PX;
+		}	
+
+.bg {
+	background-color:#e7e7e8;
+	padding-left:50px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:280px;
+	height:100%;
+			
+	}
+.bg1 {
+	background-color:#e7e7e8;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:120px;
+	padding-bottom:10px;
+	width:30px;
+	height:34%;
+	position:absolute;
+	right:620px;
+	top:213px;
+	
+	
+	}					
+	
+.bg2 {
+	background-color:#e7e7e8;
+	padding-left:21px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	width:280px;
+	float:right;
+	position:absolute;
+	left:719px;
+	top:213px;		
+	}
+	
+	
+	.profile_save {
+	width: 60px; margin:0px;padding:0px; border:none; font-weight:bold; position:relative;left:-3px;background-color:#2e56a6;color:#FFFFFF;
+	 padding-top:2px; padding-bottom:3px; cursor:pointer; float:right;	
+	}
+.photo_upload
+{
+	width: 110px; margin:0px;padding:0px; border:none; font-weight:bold; position:relative;left:-3px;background-color:#2e56a6;color:#FFFFFF;
+	 padding-top:2px; padding-bottom:2px; cursor:pointer;
+}
+
+/*Page11*/	
+ .par {
+	text-align:left;
+	padding:30px;
+	margin:100px;
+	background-color:#e7e7e8;
+	}	
+	
+/* Pagre12*/
+
+.par12 {
+ 	padding:10px;
+	margin:100px;
+	width:700px;
+	vertical-align:middle;
+	border:solid #e7e7e8;
+	
+	}
+/* Pagre13*/	
+.par13 {
+	padding:10px;
+	margin:50px 100px 100px 50px;
+	width:800px;
+	}		
+.center {
+margin-left:140PX;
+	
+	}
+
+.search-box {
+    width:450px;
+    height:24px;
+    background-color:#fff;
+    margin:0px 0px;
+    border:1px solid #cfcfcf;
+	color:#999999;
+	vertical-align:top;
+	}		
+.search-boximg {
+    width:35px;
+    height:25px;
+    margin:0px 0px;
+    border:1px solid #cfcfcf;
+	color:#999999;
+	vertical-align:top;
+	
+		}			
+.Table-align {
+	vertical-align:middle;
+	padding-left:30px;
+				}
+
+.btdis {
+	background-color:#CCCCCC;
+	margin-left:10px;
+	color:#FFFFFF;
+	border:solid #CCCCCc thin;
+	text-align:center;
+	padding:6 15 6 15px;
+	font-weight:bolder;
+	
+	} 	
+
+/* Pagre15*/	
+
+.maindiv {
+ 	padding:30px;
+	margin:80px;
+	width:700px;
+	vertical-align:middle;
+	background-color:#e7e7e8;
+		}
+.subdiv {
+ 	padding:20px;
+	width:660px;
+	vertical-align:middle;
+	background-color:#ffffff;
+	border:#CCCCCC solid;
+		}	
+	
+/* Pagre16*/
+.tablewidth  {
+	width:400px;
+	border:#999999 solid;
+	padding:5px;
+	border-width:2px;
+		}
+
+.tdwidth  {
+	border:#999999 solid;
+	padding:5px;
+	border-width:2px;
+	background-color:#ffffff;
+		}
+.thwidth  {
+	border:#999999 solid;
+	padding:5px;
+	border-width:2px;
+	background-color:#e7e7e8;
+		}					
+.eqtext {
+	color:#990000;
+	vertical-align:middle;
+	padding-top:5px;
+	margin-bottom:10px;
+	margin-right:50px;	
+	}	

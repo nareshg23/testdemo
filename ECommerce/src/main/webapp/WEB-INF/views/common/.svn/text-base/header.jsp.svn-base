@@ -1,0 +1,9 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<div class="container_header">
+
+    <div class="grid_8" id="headerlogin">	
+    </div>
+    <div class="gird_4" id="headerlogo"> 
+        <a  href="#"><img src="../static/images/logo.jpg" alt="Socionation"  /></a>  
+    </div>
+</div>

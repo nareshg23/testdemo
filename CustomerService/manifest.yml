@@ -1,0 +1,8 @@
+---
+applications:
+- name: CustomerService
+  memory: 1024M
+  buildpack: java_buildpack
+  path: target/CustomerService-0.0.1-SNAPSHOT.jar
+  host: CustomerService-pws-8767
+  domain: cfapps.io

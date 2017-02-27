@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+   <changeSet author="mano (generated)" id="1" objectQuotingStrategy="QUOTE_ALL_OBJECTS">
+        <createTable tableName="customer">
+            <column autoIncrement="true" name="customer_id" type="INT">
+                <constraints primaryKey="true"/>
+            </column>
+            <column name="customer_name" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="first_name" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+             <column name="last_name" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="customer_email" type="VARCHAR(100)">
+                <constraints nullable="false"/>
+             </column>
+            <column name="address_1" type="VARCHAR(255)"/>                    
+            <column name="address_2" type="VARCHAR(255)"/>
+            <column name="city" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="state" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column> 
+            <column name="country" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="pincode" type="VARCHAR(20)">
+                <constraints nullable="false"/>
+            </column>
+             
+            <column name="age" type="INT">
+                <constraints nullable="false"/>
+            </column>
+            <column name="gender" type="VARCHAR(50)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="dob" type="Date">
+                <constraints nullable="false"/>
+            </column>             
+           <column name="phone" type="VARCHAR(20)">
+                <constraints unique="true" nullable="false"/>
+            </column> 
+            <column name="status" type="VARCHAR(50)" defaultValue="A">
+                <constraints  nullable="false"/>
+            </column>
+               <column name="username" type="VARCHAR(100)">
+                <constraints unique="true" nullable="false"/>
+            </column>
+            <column name="password" type="VARCHAR(255)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        
+       </changeSet> 
+       
+</databaseChangeLog>

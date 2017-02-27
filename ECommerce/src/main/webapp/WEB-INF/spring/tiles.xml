@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+    <!-- Template definition starts here --> 
+    <definition name="ecommerce.base.definition" template="/WEB-INF/views/common/ecommerceMain.jsp">
+        <put-attribute name="title" value=""></put-attribute>
+        <put-attribute name="header" value="/WEB-INF/views/common/LoginHeader.jsp"></put-attribute>
+        <put-attribute name="body" value=""></put-attribute>
+        <put-attribute name="footer" value="/WEB-INF/views/common/footer.jsp"></put-attribute>
+    </definition>
+     <definition name="tilesPopup" template="/WEB-INF/views/common/PopupTemplate.jsp"> 
+        <put-attribute name="header" value="/WEB-INF/views/common/header.jsp"></put-attribute>               
+        <put-attribute name="body" value="" />
+    </definition>
+     <!-- Template definition ends here -->
+     <!-- Ecommerce User Tiles starts here-->
+      <definition name="loginPage" extends="ecommerce.base.definition">
+        <put-attribute name="header" value="/WEB-INF/views/common/LoginHeader.jsp"></put-attribute>
+        <put-attribute name="title" value="Ecommerce :: Home"></put-attribute>
+        <put-attribute name="content" value="/WEB-INF/views/IndexProductDisplay.jsp"></put-attribute>
+     </definition>
+     <definition name="customerRegisterPage" extends="tilesPopup">
+       	<put-attribute name="header" value="/WEB-INF/views/common/header.jsp"></put-attribute>               
+        <put-attribute name="body" value="/WEB-INF/views/LoginCustomer.jsp"></put-attribute>
+    </definition>
+     <definition name="invalidLogin" extends="ecommerce.base.definition">
+       <put-attribute name="header" value="/WEB-INF/views/common/header.jsp"></put-attribute>
+        <put-attribute name="title" value="Ecommerce :: Login Authentication"></put-attribute>
+        <put-attribute name="content" value="/WEB-INF/views/InvalidLogin.jsp"></put-attribute>
+    </definition>
+     <definition name="productCatalog" extends="ecommerce.base.definition">
+       <put-attribute name="header" value="/WEB-INF/views/common/LoginHeader.jsp"></put-attribute>
+        <put-attribute name="title" value="Ecommerce :: Product Catalog"></put-attribute>
+        <put-attribute name="content" value="/WEB-INF/views/productCatalog.jsp"></put-attribute>
+    </definition>
+    <definition name="ProceedToPay" extends="ecommerce.base.definition">
+       <put-attribute name="header" value="/WEB-INF/views/common/LoginHeader.jsp"></put-attribute>
+        <put-attribute name="title" value="Ecommerce :: Proceed To Pay"></put-attribute>
+        <put-attribute name="content" value="/WEB-INF/views/ProceedToPay.jsp"></put-attribute>
+    </definition>
+    <definition name="unauthorized" extends="ecommerce.base.definition">
+       <put-attribute name="header" value="/WEB-INF/views/common/LoginHeader.jsp"></put-attribute>
+        <put-attribute name="title" value="Ecommerce :: Order Created"></put-attribute>
+        <put-attribute name="content" value="/WEB-INF/views/common/UnauthorizedPage.jsp"></put-attribute>
+    </definition>
+   </tiles-definitions>

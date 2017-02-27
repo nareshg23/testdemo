@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/Icportal/!svn/ver/622/socionation/WebContent/WEB-INF/views/common
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Icportal/!svn/ver/622/socionation/WebContent/WEB-INF/views/common/footer.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/Icportal/!svn/ver/622/socionation/WebContent/WEB-INF/views/common/header.jsp
+END
+socionationMain.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/Icportal/!svn/ver/622/socionation/WebContent/WEB-INF/views/common/socionationMain.jsp
+END
+PopupTemplate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/Icportal/!svn/ver/622/socionation/WebContent/WEB-INF/views/common/PopupTemplate.jsp
+END

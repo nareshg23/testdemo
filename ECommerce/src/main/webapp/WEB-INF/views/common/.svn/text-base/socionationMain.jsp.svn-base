@@ -1,0 +1,41 @@
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+        <title><tiles:insertAttribute name="title" ignore="true"></tiles:insertAttribute></title>
+
+            <link rel="stylesheet" href="../static/css/reset.css" />
+            <link rel="stylesheet" href="../static/css/text.css" />
+            <link rel="stylesheet" href="../static/css/960.css" />
+            <link rel="stylesheet" href="../static/css/form.css" />
+        </head>
+
+        <body>
+
+            <!-- header begin -->
+        <tiles:insertAttribute name="header"></tiles:insertAttribute>
+            <!-- header end -->
+
+            <div class="clear"></div>
+            <div class="container_12">
+                <div  class="grid_12" id="borderheader"> </div>
+            </div>
+            <div class="clear"></div>
+
+            <!-- content begin -->
+        <tiles:insertAttribute name="content"></tiles:insertAttribute>
+            <!---content end -->
+
+
+            <div class="container_12" id="whitespace"> </div>
+
+
+            <!-- footer begin -->
+        <tiles:insertAttribute name="footer"></tiles:insertAttribute>
+
+        <!-- fotter end -->
+
+
+    </body>
+</html>
