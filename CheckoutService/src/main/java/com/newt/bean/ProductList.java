@@ -2,6 +2,8 @@ package com.newt.bean;
 
 import com.newt.commonutils.Productstatus;
 
+
+
 public class ProductList {
 
 	 private int productcheckoutId;
